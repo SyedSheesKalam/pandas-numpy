@@ -12,5 +12,5 @@ df2 = pd.DataFrame({
 # print(new_table)
 
 # contentation of two dataframes
-new_Table_2= pd.concat([df1, df2], axis=1, ignore_index=True)
+new_Table_2= pd.concat([df1, df2], axis=1 , ignore_index=True)
 print(new_Table_2)
